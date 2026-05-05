@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int loop_index;
+    int Scores[5];
+
+    Scores[0] = 92;
+    Scores[1] = 73;
+    Scores[2] = 57;
+    Scores[3] = 98;
+    Scores[4] = 89;
+
+    for (loop_index = 0; loop_index < 5; loop_index++) {
+        cout << "Student's score: " << Scores[loop_index] << "\n";
+    }
+
+    return 0;
+}
