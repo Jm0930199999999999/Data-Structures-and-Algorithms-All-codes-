@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int temper[7];
+    int day;
+    float sum = 0; 
+    
+   
+    for (day = 0; day < 7; day++) {
+        cout << "Enter temperature for day " << day + 1 << ": ";
+        cin >> temper[day];
+    }
+
+   
+    sum = 0;
+    for (day = 0; day < 7; day++) {
+        sum += temper[day];
+    }
+
+    
+    cout << "Average is " << sum / 7 << endl;
+
+    return 0;
+}
