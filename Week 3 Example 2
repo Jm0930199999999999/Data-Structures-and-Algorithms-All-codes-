@@ -1,0 +1,17 @@
+#include <cstring>
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char str1[] = "Jenny";
+    char str2[] = "Jennilyn";
+    int result;
+
+    // strcmp compares strings character by character based on ASCII values
+    result = strcmp(str1, str2);
+
+    cout << result;
+
+    return 0;
+}
