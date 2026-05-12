@@ -8,7 +8,7 @@ int main() {
     char str2[] = "Jennilyn";
     int result;
 
-    // strcmp compares strings character by character based on ASCII values
+    
     result = strcmp(str1, str2);
 
     cout << result;
