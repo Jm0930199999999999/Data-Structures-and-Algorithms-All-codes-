@@ -4,15 +4,15 @@
 using namespace std;
 
 int main() {
-    // Defining two C-style strings (character arrays)
+    
     char str1[] = "Aby";
     char str2[] = "John";
     int result;
 
-    // strcmp compares strings lexicographically (alphabetical order)
+   
     result = strcmp(str1, str2);
 
-    // Output the result
+   
     cout << "Comparison result: " << result << endl;
 
     return 0;
