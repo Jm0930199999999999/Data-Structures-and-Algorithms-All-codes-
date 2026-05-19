@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+struct Employee {
+    char name[50];
+    int age;
+    float salary;
+};
+
+void displayData(Employee a) {
+    cout << "\nDisplaying the employee's Information." << endl;
+    cout << "Name: " << a.name << endl;
+    cout << "Age: " << a.age << endl;
+    cout << "Salary: " << a.salary << endl; 
+}
+
+int main() {
+    Employee a;
+    
+    cout << "Enter your full name: ";
+   
+    cin.get(a.name, 50); 
+    
+    cout << "age: ";
+    cin >> a.age;
+    
+    cout << "salary: ";
+    cin >> a.salary;
+    
+    displayData(a);
+    
+    return 0;
+}
